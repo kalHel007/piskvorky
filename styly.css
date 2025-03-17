@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  /*border: solid #283e50;*/
+  width: 640px;
 }
 
 h1 {
@@ -23,12 +25,37 @@ h1 {
 .texty {
   background-color: #283e50;
   color: #ffffff;
-  /*flex: 1;*/
-  width: 50vw;
+  width: 100%;
+  text-align: center;
+
 }
 
 .obrazek {
-  /*flex: 1;*/
+  width: 100%;
 }
 
-.buttony {}
+.buttony {
+  width: 100%;
+  background-color: #283e50;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+}
+
+.button1 {
+  background-color: #1fcca4;
+}
+
+.button1:hover {
+  background-color: #1cbb96;
+}
+
+.button2 {
+  background-color: #0197f6;
+}
+
+.button2:hover {
+  background-color: #0090e9;
+}
