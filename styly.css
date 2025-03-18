@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
+  height: 100vw;
+  height: 100vh;
 }
 
 .container {
@@ -13,13 +16,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /*border: solid #283e50;*/
-  width: 640px;
+  width: 60vmin;
+  position: relative;
+  left: calc(50% - 30vmin);
+  top: 5vmin;
 }
 
 h1 {
-  font-family: Lobster;
-  sans-serif;
+  font-family: Lobster,
+    sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
 }
 
 .texty {
@@ -27,21 +39,30 @@ h1 {
   color: #ffffff;
   width: 100%;
   text-align: center;
-
+  padding: 15px 30px;
 }
 
 .obrazek {
   width: 100%;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
 .buttony {
   width: 100%;
-  background-color: #283e50;
 }
 
 button {
   width: 100%;
   text-align: center;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 20px 50px;
 }
 
 .button1 {
@@ -54,6 +75,7 @@ button {
 
 .button2 {
   background-color: #0197f6;
+  border-radius: 0 0 15px 15px;
 }
 
 .button2:hover {
