@@ -55,10 +55,11 @@ img {
 
 .buttony {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-button {
-  width: 100%;
+a {
   text-align: center;
   border: none;
   font-size: 18px;
