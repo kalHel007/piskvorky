@@ -26,6 +26,7 @@ h1 {
   font-family: Lobster,
     sans-serif;
   font-size: 30px;
+  color: #ffffff;
 }
 
 p {
@@ -44,14 +45,11 @@ p {
 
 .obrazek {
   width: 100%;
-}
-
-img {
-  width: 100%;
   height: 100%;
   border-radius: 15px 15px 0px 0px;
   display: flex;
 }
+
 
 .buttony {
   width: 100%;
@@ -82,4 +80,108 @@ a {
 
 .button2:hover {
   background-color: #0090e9;
+}
+
+.hra_container {
+  max-width: 880vh;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  flex-wrap: wrap;
+  width: 60vmin;
+  position: relative;
+  left: calc(50% - 30vmin);
+  top: 5vmin;
+}
+
+.nadpis h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.kdo_hraje {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+.kolecko {
+  border: white solid;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 50px;
+
+}
+
+.ikony {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.ikony a {
+  padding: 5px;
+}
+
+.domu {
+  background-color: #1fcca4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.domu:hover {
+  background-color: #1cbb96;
+}
+
+.restart {
+  background-color: #0197f6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.restart:hover {
+  background-color: #0090e9;
+}
+
+.zahlavi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mrizka {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  opacity: 0.7;
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  border: solid black 1px;
+  width: 6vmin;
+  height: 6vmin;
+  background-color: #c7b8d9
+}
+
+button:hover {
+  background-color: floralwhite;
+}
+
+.rada {
+  display: flex;
 }
