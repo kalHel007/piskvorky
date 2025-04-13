@@ -181,6 +181,10 @@ button:hover {
   background-color: floralwhite;
 }
 
+button:focus {
+  background-color: floralwhite;
+}
+
 .rada {
   display: flex;
 }
