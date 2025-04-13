@@ -99,7 +99,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 10vmin;
 }
 
 .kdo_hraje {
@@ -110,7 +110,6 @@ a {
   flex-wrap: wrap;
   align-items: center;
   font-weight: bold;
-
 }
 
 .kolecko {
