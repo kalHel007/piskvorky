@@ -83,7 +83,7 @@ a {
 }
 
 .hra_container {
-  max-width: 880vh;
+  /*max-width: 880vh;*/
   display: flex;
   flex-direction: column;
   /*justify-content: center;*/
@@ -138,7 +138,7 @@ a {
   border-radius: 5px;
 }
 
-.domu:hover {
+.domu:hover .domu:focus {
   background-color: #1cbb96;
 }
 
@@ -148,9 +148,10 @@ a {
   border-radius: 5px;
 }
 
-.restart:hover {
+.restart:hover .restart:focus {
   background-color: #0090e9;
 }
+
 
 .zahlavi {
   display: flex;
@@ -163,7 +164,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  opacity: 0.7;
+  background-image: linear-gradient(#615dad, #ffc8da);
+  opacity: 0.5;
 }
 
 button {
